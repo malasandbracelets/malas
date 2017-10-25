@@ -3450,7 +3450,10 @@ tbody.collapse.show {
   }
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
-  }
+   display: none;
+.dropdown-menu ul li:hover > ul   {
+   display:inline-block;
+ }
   .navbar-expand-lg .navbar-nav .dropdown-menu-right {
     right: 0;
     left: auto;
